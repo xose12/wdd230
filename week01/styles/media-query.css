@@ -1,0 +1,30 @@
+/* Google Font Roboto is applied here */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* General Layout */
+header,
+main,
+footer {
+    max-width: 640px;
+    margin: 1rem auto;
+    border: 1px solid #934949;
+    padding: 1rem;
+    background-color: #c7d061;
+}
+
+/* Grid layout for the main element */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Single column grid */
+    grid-gap: 1rem;
+    /* Equal gap of 1rem */
+}
+
+/* Section styling */
+section {
+    padding: 1rem;
+    background-color: #fff;
+}
