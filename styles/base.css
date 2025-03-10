@@ -1,65 +1,120 @@
-/* Base styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    line-height: 1.6;
-    color: #2b3c4c; /* Set default text color */
-    background-color: #f9f9f9; /* Set background color */
-}
-
-header {
-    background-color: #754747;
-    padding: 1rem;
     text-align: center;
-    color: white; /* Ensure text color contrast with background */
-}
-
-header img {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0.5rem 0;
-}
-
-nav ul li button {
-    background-color: transparent; /* Ensure contrast */
-    color: #2b3c4c; /* Ensure button text is visible */
-    border: none;
-    font: inherit;
-    cursor: pointer;
-}
-
-nav ul li button.active {
-    font-weight: bold;
-}
-
-main {
-    max-width: 900px;
+    align-items: center;
     margin: 0 auto;
-    padding: 1rem;
+    max-width: 800px;
+    margin-top: 50px;
+
+}
+#header_box {
+    background-color: #604b37;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 0 0 10px #427f93;
+    border-radius: 10px;
+    padding: 3%;
+}
+#son {
+    width: 150px;
+    height: 100%;
+    align-items: left;
+    box-shadow: 0 0 10px #2f7b94;
+   
 }
 
-.card {
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: #ffffff; /* Background color for cards */
-    border: 1px solid #ddd;
-    color: #333; /* Ensure text color contrast */
+#son:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+#title_header {
+    font-size: 30px;
+    font-weight: normal;
+    color: #5d9bc8;
+    font-family: 'Arvo', serif;
+    padding: 5px;
+    padding-left: 20upx;
+}
+.line {
+    background-color: #4f7ea0;
+    width: 80%;
+    height: 0.4vh; 
+    border: 0;
+}
+#banner {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #2e69c2;
+    text-shadow: rgb(219, 155, 155);
+    font-family: 'Sofia Sans', sans-serif;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
+ul {
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+}
+#list_link{
+    background-color:#4488b9 ;
+    padding: 5%;
+    padding-left: 20%;
+    border-radius: 10px;
+    color: #875424;
+    margin: 5%;
+    box-shadow: 0 0 10px #22424d;    
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+}
+a {
+background-color: #967557;
+  padding: 2%;
+  margin: 2%;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px #245869;
+  color:#1b3446;
+  text-decoration: none;
+  font-weight: bolder;
+}
+a:hover {
+    background-color: rgb(187, 121, 121);
+}
+hr {
+    background-color: #61818e;
+    width: 70%;
+    height: 0.1vh;
+    border: 0;
+}
+#comment {
+    background-color: #23323c;
+    font-style: italic;
+    color: #6e5741;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10px;
     text-align: center;
-    padding: 1rem;
+    box-shadow: 0 0 10px #334950;
+    font-weight: bolder;
+    font-family: 'Sofia Sans', sans-serif;
+}
+footer {
+    background-color: #896849;
+    color: #323e47;
+    padding: 5%;
+    font-weight: bolder;
+    box-shadow: 0 0 10px #4d5a5e;
+    padding: 1%;
+    font-family: 'Arvo', serif;
+}
+#modify {
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 10px;
 }

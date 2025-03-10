@@ -1,57 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="WDD 230 - Web Frontend Development, Timothy Gblodzo Karikari, course assignment portal">
-    <meta name="author" content="Timothy Gblodzo Karikari">
-    <title>Timothy Gblodzo Karikari - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Assignment portal for Timothy Gblodzo Karikari for wdd230 web development">
+    <title>Course Assignment Portal</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    
     <header>
-        <img src="images/profile.jpg" alt="Profile image of Timothy Karikari">
-        <span class="name">Timothy Gblodzo Karikari</span>
-    </header>
-
-    <nav>
-        <ul>
-            <li><button onclick="window.location.href='index.html'" class="active">Home</button></li>
-            <li><button onclick="window.location.href='#'">Chamber</button></li>
-            <li><button onclick="window.location.href='#'">Site Plan</button></li>
-            <li><button onclick="window.location.href='#'">Form</button></li>
+    <div id="header_box">
+     <img id="son" src="images/profile.jpg" alt="profile image">
+    <h1 id="title_header">Timothy Gblodzo Karikari</h1>
+    </div>
+    </header> 
+<main>
+    <h2 id="banner">WDD 230: Assignment Portal</h2>
+        <hr class="line">
+    <div id="list_link">
+         <ul>
+            <li class="list">Lesson 02: <a href="https://xose12.github.io/wdd230/lesson1/design-principles.html"> Home</a></li>
+            <li class="list">Lesson 03: <a href="https://xose12.github.io/wdd230/lesson3/index.html">Website Planning Document</a></li>
+            <li class="list">Lesson 04: <a href="https://xose12.github.io/wdd230/chamber/index.html">Chamber Homepage</a></li>
+            <li class="list">Lesson 05: <a href="https://xose12.github.io/wdd230/DOM/bom.html">Form</a></li>
         </ul>
-    </nav>
-
-    <main>
-        <section class="card">
-            <h1>WDD 230: Web Frontend Development</h1>
-            <section class="card">
-                <h2>Learning Activities</h2>
-                <ul>
-                    <li><a href="#">Activity 1</a></li>
-                    <li><a href="#">Activity 2</a></li>
-                    <li><a href="#">Activity 3</a></li>
-                </ul>
-            </section>
-
-            <section class="card">
-                <h2>Information</h2>
-                <p>Weather info, page visits, etc. will be displayed here.</p>
-            </section>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; <span id="year"></span> Timothy Gblodzo Karikari, Ghana</p>
-        <p id="lastModified"></p>
-    </footer>
-
+    </div>
+    <hr class="line">
+    <p id="comment">The Lord has also provided us with technology to help further his work here on Earth</p>
+</main>
+<footer>
+    © <span id="year"></span>  | Timothy Gblodzo Karikari | Adenta, Ghana
+    <div id="modify"> Last Modified: <span id="lastmodified"></span></div>
+</footer>
     <script src="scripts/getDates.js"></script>
 </body>
-
 </html>

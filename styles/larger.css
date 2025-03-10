@@ -1,17 +1,16 @@
-/* Styles for larger screens */
-@media (min-width: 768px) {
-    nav ul {
-        display: flex;
-        justify-content: space-around;
+@media (min-width: 32.5em) {
+    #title_header {
+        font-size: 50px;
     }
-
-    main {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 20px;
+    #banner {
+        font-size: 40px;
     }
-
-    .card:nth-child(1) {
-        grid-column: span 2;
+    footer {
+        border-radius: 10px;
     }
+    #son {
+        border-radius: 20px 20px 20px 20px;
+        float:right;
+     }
+     
 }
