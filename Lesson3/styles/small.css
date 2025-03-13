@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Sofia+Sans&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: 'Arvo', serif;
+}
+
+header h1 {
+    color: whitesmoke;
+
+}
+h1{
+    color: #003554;
+}
+
+h2, h3 {
+    color:#003554;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 2px 10% 2px 10%;
+}
+ul{
+    display: block;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    margin: 2px 10% 2px 10%;
+}
+
+hr {
+    height: 3px;
+    margin: 35px;
+    background:#003554;
+}
+
+header {
+    background-color: #003554;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+nav {
+    background-color:#003554;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    padding:1em;
+    width: 100%;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #003554;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+    color: #003554;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+section img {
+    max-width: 50%;
+}
+
+#persona {
+    max-width: 100%;
+    width: 150px;
+    padding: 1%;
+    padding-left: 5px;
+    align-items: center;
+}
+
+table {
+    margin-top: 20px;
+    justify-items: center;
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+    width: 100%;
+}
+
+th {
+    display: table-cell;
+    font-weight: bold;
+    background-color: #999;
+    vertical-align: inherit;
+    text-align: center;
+}
+
+td {
+    padding: 2%;
+}
+
+.primary {
+    background-color: #001524;
+    color: whitesmoke;
+}
+
+.secondary {
+    background-color:#FF7D00;
+}
+
+.accent1 {
+    background-color:#010405 ;
+    color: whitesmoke;
+}
+
+.accent2 {
+    background-color: #c0c0c0;
+    color: #001524;
+}
+
+.typo {
+    margin: 50px 50px;
+}
+
+.colored {
+    background-color:#001524 ;
+    color: whitesmoke;
+    padding: 3%;
+}
+
+.title {
+    background-color:#c0c0c0;
+    padding: 10px;
+    color: #003554;
+}
+.titlt h1{
+    color: #003554;
+}
+
+footer {
+    background-color: #003554;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3em;
+    margin: 50px 0px 0px 0px;
+    font-family: 'Arvo', serif;
+}
+
