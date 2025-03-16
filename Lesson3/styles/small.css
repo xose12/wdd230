@@ -9,11 +9,11 @@ header h1 {
 
 }
 h1{
-    color: #003554;
+    color: #0b7475;
 }
 
 h2, h3 {
-    color:#003554;
+    color:#005454;
 }
 
 p {
@@ -33,18 +33,18 @@ li {
 hr {
     height: 3px;
     margin: 35px;
-    background:#003554;
+    background:#004c54;
 }
 
 header {
-    background-color: #003554;
+    background-color: #00544e;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
 }
 
 nav {
-    background-color:#003554;
+    background-color:#005451;
     line-height: 2em;
     text-align: center;
     font-size: 1.2em;
@@ -59,13 +59,13 @@ nav a {
     width: 100%;
     text-decoration: none;
     padding: 10px;
-    background-color: #003554;
+    background-color: #005454;
     color: whitesmoke;
 }
 
 nav a:hover{
     background-color: whitesmoke;
-    color: #003554;
+    color: #005154;
 }
 
 body {
@@ -99,7 +99,7 @@ table {
 th {
     display: table-cell;
     font-weight: bold;
-    background-color: #999;
+    background-color: #7a6363;
     vertical-align: inherit;
     text-align: center;
 }
@@ -109,7 +109,7 @@ td {
 }
 
 .primary {
-    background-color: #001524;
+    background-color: #00241f;
     color: whitesmoke;
 }
 
@@ -118,13 +118,13 @@ td {
 }
 
 .accent1 {
-    background-color:#010405 ;
+    background-color:#032122 ;
     color: whitesmoke;
 }
 
 .accent2 {
     background-color: #c0c0c0;
-    color: #001524;
+    color: #002424;
 }
 
 .typo {
@@ -132,7 +132,7 @@ td {
 }
 
 .colored {
-    background-color:#001524 ;
+    background-color:#00241f ;
     color: whitesmoke;
     padding: 3%;
 }
@@ -140,14 +140,14 @@ td {
 .title {
     background-color:#c0c0c0;
     padding: 10px;
-    color: #003554;
+    color: #004e54;
 }
 .titlt h1{
-    color: #003554;
+    color: #004954;
 }
 
 footer {
-    background-color: #003554;
+    background-color: #005154;
     color: whitesmoke;
     text-align: center;
     padding: 3em;
